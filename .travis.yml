@@ -15,8 +15,10 @@ php:
 #Tentukan branch
 branches:
 	only:
-		- master #-> QA/staging
-		- develop #-> DevServer
+		- master 
+		#-> QA/staging
+		- develop 
+		#-> DevServer
 		
 #before install
 before_install:
@@ -27,4 +29,6 @@ before_install:
 #install
 install:
 #before script -> sebelum melakuan main execution
-before:
+before_script:
+#script -> main execution
+script:
