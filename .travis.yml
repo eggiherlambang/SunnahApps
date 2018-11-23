@@ -27,8 +27,12 @@ before_install:
     - sudo mv phpunit-6.5.phar /usr/local/bin/phpunit
     - phpunit --version
 #install
+
 install:
 #before script -> sebelum melakuan main execution
+
 before_script:
+
 #script -> main execution
+
 script:
