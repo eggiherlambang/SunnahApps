@@ -25,6 +25,7 @@ before_script:
     - php artisan key.generate
 #script -> main execution
 script:
+    - ./vendor/bin/phpunit
 
 # ketika kodisi main execution  finish
 after_succes:
